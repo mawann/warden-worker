@@ -143,8 +143,8 @@ simple = { limit = 5, period = 60 }
 
 [[env.dev.d1_databases]]
 binding = "DB"
-database_name = "warden-db"
-database_id = "${D1_DATABASE_ID_DEV}"
+database_name = "vault1"
+database_id = "2b65e74a-cd5b-4d3e-8a42-8a98d5153e9e"
 migrations_dir = "migrations"
 
 # R2 bucket for file attachments in dev environment (optional, requires credit card)
