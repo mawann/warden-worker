@@ -99,9 +99,9 @@ run_worker_first = ["/api/*", "/identity/*", "/notifications/*"]
 crons = ["0 3 * * *"]
 
 [[d1_databases]]
-binding = "vault1"
-database_name = "vault1"
-database_id = "${D1_DATABASE_ID}"
+binding = "DB"
+database_name = "warden-db"
+database_id = "6c6a2af5-8a54-41f3-8f4d-251b301b000e"
 migrations_dir = "migrations"
 
 # R2 bucket for file attachments (optional, requires credit card)
